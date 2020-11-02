@@ -13,7 +13,7 @@ h1 {
     width: 25%;
     position: absolute;
     top: 0px;
-    right: 6px;
+    right: 24px;
     text-align: center;
 }
 .p2 {
@@ -38,9 +38,12 @@ p {
 	font-size: 20px;
 	color: white;
 	padding: 10px 10px 10px 10px;
-	margin: 20px;
+	margin: 20px 20px 20px 20px;
 	width: 400px;
 	border: 2px solid black;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 .row {
 	width: 100%
@@ -63,11 +66,4 @@ p {
     width: 50%;
    }
 }
-@media (max-width: 767px) {
-	.col-sm-12, .col-sm-12, .col-sm-12{
-		float: left;
-	}
-.col-sm-12 {
-	width: 100%;
-}
-}
+
